@@ -1,0 +1,13 @@
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Ali Emre 5078871191\source\repos\ConsoleUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
