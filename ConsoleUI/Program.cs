@@ -1,5 +1,6 @@
 ﻿using Business.Concrete;
 using DataAccess.Concrete;
+using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 
@@ -9,20 +10,56 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            ProductManager productManager = new ProductManager(new InMemoryProductDal());
-
-            foreach (var item in productManager.GetAll())
+            CarManager carManager = new CarManager(new EfCarDal());
+            Car car1 = new Car
             {
-                Console.WriteLine(item.ProductName);
-            }
+                CarId = 1,
+                BrandId = 1,
+                ColorId = 1,
+                DailyPrice = 500,
+                Description = "Honda Civic",
+                ModelYear = 2015
+            };
 
-            Product product = new Product { ProductId = 6, CategoryId = 2, ProductName = "Test 6", UnitPrice = 30, UnitsInStock = 20 };
-            productManager.Add(product);
-
-            foreach (var item in productManager.GetAll())
+            Car car2 = new Car
             {
-                Console.WriteLine(item.ProductName);
-            }
+                CarId = 2,
+                BrandId = 2,
+                ColorId = 2,
+                DailyPrice = 400,
+                Description = "Toyota Yaris",
+                ModelYear = 2016
+            };
+
+            Car car3 = new Car
+            {
+                CarId = 3,
+                BrandId = 2,
+                ColorId = 3,
+                DailyPrice = 550,
+                Description = "Toyota Corolla",
+                ModelYear = 2017
+            };
+            Car car4 = new Car
+            {
+                CarId = 3,
+                BrandId = 1,
+                ColorId = 3,
+                DailyPrice = 0,
+                Description = "Toyota Yaris",
+                ModelYear = 2010
+            };
+            /*
+            carManager.Add(car1);
+            carManager.Add(car2);
+            carManager.Add(car3);
+            Console.WriteLine("added");
+            */
+            /*
+            carManager.Delete(car1);
+            Console.WriteLine("deleted");
+            */
+            carManager.Add(car4);
         }
     }
 }

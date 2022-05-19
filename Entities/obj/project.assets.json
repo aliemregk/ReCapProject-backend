@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ali Emre 5078871191\\AppData\\Roaming\\NuGet\\NuGet.Config",

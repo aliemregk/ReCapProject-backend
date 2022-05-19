@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali Emre 5078871191\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj"
+              "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj": {
+    "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali Emre 5078871191\\source\\repos\\ConsoleUI\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali Emre 5078871191\\AppData\\Roaming\\NuGet\\NuGet.Config",
