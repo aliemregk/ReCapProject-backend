@@ -101,3 +101,5 @@ C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\bin
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CopyComplete
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

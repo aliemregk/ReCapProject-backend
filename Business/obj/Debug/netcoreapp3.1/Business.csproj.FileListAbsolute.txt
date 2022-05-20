@@ -43,3 +43,5 @@ C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\bin\
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\Business\bin\Debug\netcoreapp3.1\Core.pdb
