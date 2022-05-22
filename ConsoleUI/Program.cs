@@ -28,13 +28,22 @@ namespace ConsoleUI
 
         private static void GetCarDetails(CarManager carManager)
         {
-            foreach (var car in carManager.GetCarDetails())
+            var result = carManager.GetCarDetails();
+
+            if (result.Success)
             {
-                Console.WriteLine(car.CarId + " -- " + car.ColorName + " -- " + car.BrandName);
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine(car.CarId + " -- " + car.ColorName + " -- " + car.BrandName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
-        private static void AddBrands(BrandManager brandManager)
+        private static void AddBrand(BrandManager brandManager)
         {
             Brand brand1 = new Brand
             {
@@ -83,7 +92,7 @@ namespace ConsoleUI
             brandManager.Delete(brand);
             Console.WriteLine("Brand deleted.");
         }
-        private static void AddColors(ColorManager colorManager)
+        private static void AddColor(ColorManager colorManager)
         {
             Color color1 = new Color
             {
@@ -131,7 +140,7 @@ namespace ConsoleUI
             colorManager.Update(color);
             Console.WriteLine("Color updated.");
         }
-        private static void AddCars(CarManager carManager)
+        private static void AddCar(CarManager carManager)
         {
             Car car1 = new Car
             {
@@ -164,19 +173,18 @@ namespace ConsoleUI
             };
             Car car4 = new Car
             {
-                CarId = 4,
+                CarId = 5,
                 BrandId = 4,
-                ColorId = 4,
-                DailyPrice = 900,
-                Description = "Ferrari LaFerrari",
-                ModelYear = 2015
+                ColorId = 3,
+                DailyPrice = 950,
+                Description = "F",
+                ModelYear = 2016
             };
 
             carManager.Add(car1);
             carManager.Add(car2);
             carManager.Add(car3);
             carManager.Add(car4);
-            Console.WriteLine("Cars added");
         }
     }
 }
