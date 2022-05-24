@@ -33,10 +33,3 @@ namespace DataAccess.Concrete.EntityFramework
         }
     }
 }
-/*
-        FROM student
-        JOIN student_course
-        ON student.id = student_course.student_id
-        OIN course
-        ON course.id = student_course.course_id;
-*/

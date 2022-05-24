@@ -13,6 +13,9 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             ColorManager colorManager = new ColorManager(new EfColorDal());
             BrandManager brandManager = new BrandManager(new EfBrandDal());
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            UserManager userManager = new UserManager(new EfUserDal());
 
             //AddCars(carManager);
             //GetCarDetails(carManager);
@@ -24,8 +27,101 @@ namespace ConsoleUI
             //AddBrands(brandManager);
             //DeleteBrand(brandManager);
             //UpdateBrand(brandManager);
+
+
+            //AddUser(userManager);
+            //AddCustomer(customerManager);
+
+            //AddRental(rentalManager);
+            GetRental(rentalManager);
+
         }
 
+        private static void AddRental(RentalManager rentalManager)
+        {
+            Rental rental1 = new Rental
+            {
+                CarId = 3,
+                CustomerId = 1,
+                RentalId = 2,
+                RentDate = "28 Mayıs 2018",
+                ReturnDate = "5 Haziran 2018"
+            };
+
+            rentalManager.Add(rental1);
+        }
+
+        private static void GetRental(RentalManager rentalManager)
+        {
+            var result = rentalManager.GetAll();
+            if (result.Success)
+            {
+                foreach (var rental in result.Data)
+                {
+                    Console.WriteLine(rental.RentalId + " -- " + rental.CarId + " -- " + rental.CustomerId
+                         + " -- " + rental.RentDate + " -- " + rental.ReturnDate);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+        }
+
+        private static void AddCustomer(CustomerManager customerManager)
+        {
+            Customer customer1 = new Customer
+            {
+                CustomerId = 1,
+                UserId = 1,
+                CompanyName = "Company A"
+            };
+            Customer customer2 = new Customer
+            {
+                CustomerId = 2,
+                UserId = 2,
+                CompanyName = "Company B"
+            };
+            Customer customer3 = new Customer
+            {
+                CustomerId = 3,
+                UserId = 3,
+                CompanyName = "Company C"
+            };
+            customerManager.Add(customer1);
+            customerManager.Add(customer2);
+            customerManager.Add(customer3);
+        }
+        private static void AddUser(UserManager userManager)
+        {
+            User user1 = new User
+            {
+                UserId = 1,
+                FirstName = "User1",
+                LastName = "User1",
+                Email = "user1@email.com",
+                Password = "1234"
+            };
+            User user2 = new User
+            {
+                UserId = 2,
+                FirstName = "User2",
+                LastName = "User2",
+                Email = "user2@email.com",
+                Password = "1234"
+            };
+            User user3 = new User
+            {
+                UserId = 3,
+                FirstName = "User3",
+                LastName = "User3",
+                Email = "user3@email.com",
+                Password = "1234"
+            };
+            userManager.Add(user1);
+            userManager.Add(user2);
+            userManager.Add(user3);
+        }
         private static void GetCarDetails(CarManager carManager)
         {
             var result = carManager.GetCarDetails();
@@ -42,7 +138,6 @@ namespace ConsoleUI
                 Console.WriteLine(result.Message);
             }
         }
-
         private static void AddBrand(BrandManager brandManager)
         {
             Brand brand1 = new Brand
