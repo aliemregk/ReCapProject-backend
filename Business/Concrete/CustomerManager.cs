@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using Core.Utilities.Results.DataResults;
 using DataAccess.Abstract;
@@ -11,6 +13,7 @@ using System.Text;
 
 namespace Business.Concrete
 {
+    
     public class CustomerManager : ICustomerService
     {
         ICustomerDal _customerDal;
@@ -20,6 +23,7 @@ namespace Business.Concrete
             _customerDal = customerDal;
         }
 
+        [ValidationAspect(typeof(CustomerValidator))]
         public IResult Add(Customer customer)
         {
             _customerDal.Add(customer);
