@@ -10,7 +10,6 @@ namespace WebAPI.Controllers
     public class BrandsController : ControllerBase
     {
         IBrandService _brandService;
-
         public BrandsController(IBrandService brandService)
         {
             _brandService = brandService;
