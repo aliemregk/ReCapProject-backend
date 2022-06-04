@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+1opQbCcuBMADkxz323TueAkH4cdxnxgYgyVef6bvKJQpzK1hvyMXmZkossGJijkFgbr6ehtepaPuAKFmMWFUw==",
+  "dgSpecHash": "ak2I/7IAGPNiObW2UhDzcLHC1ZE2qPGSiHgfYTNbKtUXgK5LPNqUrWVyRN747ziKnefP64Cxt9WqeOR1Rz2hyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali Emre 5078871191\\Documents\\GitHub\\ReCapProject-backend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Ali Emre 5078871191\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

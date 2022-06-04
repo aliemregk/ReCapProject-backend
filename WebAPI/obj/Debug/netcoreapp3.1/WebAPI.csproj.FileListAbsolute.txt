@@ -70,3 +70,5 @@ C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\De
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+C:\Users\Ali Emre 5078871191\Documents\GitHub\ReCapProject-backend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
